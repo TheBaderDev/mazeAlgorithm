@@ -5,13 +5,14 @@ import java.util.Random;
 import java.util.Stack;
 
 public class Grid {
-	private Cell[][] grid;
-	private Cell start;
-	private Cell end;
+	public Cell[][] grid;
+	public Cell start;
+	public int size;
 
 	public Grid( int size , int rs, int cs) {
 		if( size == 1)
 			throw new IllegalArgumentException();
+		this.size = size;
 		
     	Cell[][] rv = new Cell[2 * size + 1][2 * size + 1];
     	for (int r = 0; r < 2 * size + 1; r++) {

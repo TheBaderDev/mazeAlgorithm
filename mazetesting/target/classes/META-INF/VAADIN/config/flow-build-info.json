@@ -1,7 +1,7 @@
 {
   "compatibilityMode": false,
   "productionMode": false,
-  "npmFolder": "/home/darthbader/Downloads/mazetesting",
-  "generatedFolder": "/home/darthbader/Downloads/mazetesting/target/frontend",
-  "frontendFolder": "/home/darthbader/Downloads/mazetesting/frontend"
+  "npmFolder": "/home/darthbader/git/mazeAlgorithm/mazetesting",
+  "generatedFolder": "/home/darthbader/git/mazeAlgorithm/mazetesting/target/frontend",
+  "frontendFolder": "/home/darthbader/git/mazeAlgorithm/mazetesting/frontend"
 }
